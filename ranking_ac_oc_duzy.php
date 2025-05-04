@@ -4,7 +4,7 @@
 Plugin Name: OC/AC RANKING DUŻY PAKIET1
 Description: Widget wyświetlający ranking ubezpieczeń OC/AC z możliwością edycji i zarządzania.
 Version: 1.0
-Author: Twoje Imię
+Author: KP400x
 */
 
 // Rejestracja widgetu
