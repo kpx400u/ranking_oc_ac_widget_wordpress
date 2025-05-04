@@ -1,0 +1,122 @@
+.loan-widget-shortcode h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+/* Lista ofert */
+.loan-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Pojedyncza oferta */
+.loan-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+/* Hover efekt */
+.loan-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.loan-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Komórki */
+.loan-item div {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* Teksty */
+.loan-item p {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+}
+
+/* Nagłówki sekcji */
+.loan-item p strong {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Oceny */
+.loan-item .stars {
+    font-size: 18px;
+    color: #f39c12;
+}
+
+/* Przycisk */
+.loan-item .button {
+    background-color: #0073aa;
+    color: #ffffff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.loan-item .button:hover {
+    background-color: #005a87;
+}
+
+/* RRSO */
+.rrso-info {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #0073aa;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    .loan-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loan-item div {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .loan-item div:last-child {
+        border-bottom: none;
+    }
+
+    .loan-item .button {
+        width: 100%;
+    }
+
+    .rrso-info {
+        text-align: center;
+    }
+}
